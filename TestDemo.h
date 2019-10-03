@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 void input(int [],int );
-void print(int [], int);
+void print(const int [], int);
 
 void input(int values[], int len){
     if(len>5){
@@ -22,7 +22,7 @@ void input(int values[], int len){
         cin >> values[i];
     }
 }
-void print(int values[], int len){
+void print(const int values[], int len){
     string valueNames [] ={"a","b","c","d","e"};
     for (int i = 0; i < len; i++) {
         cout << valueNames[i] << ": " <<values[i]<<endl;

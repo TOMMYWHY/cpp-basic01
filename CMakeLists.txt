@@ -4,3 +4,5 @@ project(basic01)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(basic01 main.cpp TestDemo.h)
+
+add_executable(test_struct test_struct.cpp)
