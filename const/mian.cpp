@@ -21,5 +21,9 @@ int main (){
 
     cout << "pointer : p => " <<p << endl;
     cout << "pointer : * p => " <<*p << endl;
+
+    const int * const ppp = &a;
+    cout << "pointer : ppp => " <<ppp << endl;
+    cout << "pointer : * ppp => " <<*ppp << endl;
     return 0;
 }
