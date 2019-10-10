@@ -13,7 +13,7 @@ int main (){
     cout << "pointer : * p => " <<*p << endl;
 
 
-    int * const pp = &a; // 指针常量 // const 标记 pp，则 pp 固定。
+    int * const pp = &a; // 指针常量 // const 标记 pp，则 pp 固定。// reference
     *pp = b;
 //    pp =&b; // error:
     cout << "pointer : pp => " <<pp << endl;
@@ -25,5 +25,7 @@ int main (){
     const int * const ppp = &a;
     cout << "pointer : ppp => " <<ppp << endl;
     cout << "pointer : * ppp => " <<*ppp << endl;
+
+
     return 0;
 }
